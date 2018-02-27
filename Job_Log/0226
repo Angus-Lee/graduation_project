@@ -1,0 +1,10 @@
+1. GitHub开了一个新的repository，用于备份进展：
+https://github.com/Angus-Lee/graduation_project
+
+2.	寒假期间关注了Geoffrey Hinton等人于2011年提出的CapsNets（胶囊网络）及其最新进展。CapsNets相比CNN的优势在于：需要的训练数据更少，可以保持图像细节，能够更好地处理模糊性。Hinton本人对胶囊网络寄予厚望，认为它将取代深度学习的基石CNN。
+2017年11月，Sara Sabour，Nicholas Frosst和Geoffrey Hinton发表了一篇名为“Dynamic Routing Between Capsules（胶囊间的动态路由）”的论文，该论文引入了CapsNet架构，并在MNIST数据集上取得了目前最小的误差，也在MultiMNIST数据集上得到了比CNN更好的结果。
+当然作为新生事物，CapsNets的表现还远远不够完美。首先，CapsNets在CIFAR10和ImageNet等大图像数据集上的表现还比不上CNN；此外，CapsNets是计算密集型的，当彼此太靠近时，它们不能检测到相同类型的两个对象。目前在语义分割这一任务中CapsNets的表现还比不上基于CNN的方法。
+
+
+
+附Dynamic Routing Between Capsules译文：
